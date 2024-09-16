@@ -3438,12 +3438,6 @@
 		(uuid "480f3d35-46d2-48ff-a8e6-0cb0cbb71896")
 	)
 	(junction
-		(at 248.92 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "527740f1-a8ee-49fb-8407-6b0edfca253c")
-	)
-	(junction
 		(at 35.56 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3839,7 +3833,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 146.05) (xy 254 146.05)
+			(xy 243.84 146.05) (xy 252.73 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4449,7 +4443,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 146.05) (xy 262.89 146.05)
+			(xy 260.35 146.05) (xy 262.89 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5066,16 +5060,6 @@
 			(type default)
 		)
 		(uuid "af2f596b-8196-4224-a4e7-ee1cc4b92661")
-	)
-	(wire
-		(pts
-			(xy 243.84 146.05) (xy 248.92 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afa7da93-5513-4329-acd4-aab2e222944d")
 	)
 	(wire
 		(pts
@@ -5731,9 +5715,9 @@
 			)
 		)
 	)
-	(global_label "S5"
+	(global_label "S3"
 		(shape input)
-		(at 157.48 74.93 180)
+		(at 157.48 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5741,9 +5725,9 @@
 			)
 			(justify right)
 		)
-		(uuid "09951cb4-d064-4412-8b9d-533cddf9e68b")
+		(uuid "1368184f-01d7-4eeb-b562-4bc2d1743887")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.0758 74.93 0)
+			(at 152.0758 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +5737,7 @@
 			)
 		)
 	)
-	(global_label "S2"
+	(global_label "S1"
 		(shape input)
 		(at 157.48 67.31 180)
 		(fields_autoplaced yes)
@@ -5763,7 +5747,7 @@
 			)
 			(justify right)
 		)
-		(uuid "0c408b5b-6cce-4b14-9bc7-25ee7ea799ed")
+		(uuid "1524a539-b029-44a6-b3a8-e683e5926614")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 152.0758 67.31 0)
 			(effects
@@ -5771,28 +5755,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "P2"
-		(shape input)
-		(at 195.58 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "17898dd7-7a25-46b1-87c0-2d5af6ed1839")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.0447 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5929,28 +5891,6 @@
 			)
 		)
 	)
-	(global_label "IO1"
-		(shape input)
-		(at 157.48 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2b023c1e-b341-4add-9931-04f60e5055fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.35 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Vcc"
 		(shape input)
 		(at 214.63 146.05 90)
@@ -5973,24 +5913,24 @@
 			)
 		)
 	)
-	(global_label "P1"
+	(global_label "P5"
 		(shape input)
-		(at 195.58 59.69 0)
+		(at 157.48 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "3b6416fc-8156-4bc9-9c59-87442cd49439")
+		(uuid "399d34da-4bc3-4c2b-a51c-636046374c0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.0447 59.69 0)
+			(at 152.0153 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6105,28 +6045,6 @@
 			)
 		)
 	)
-	(global_label "Zero_C"
-		(shape input)
-		(at 157.48 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4c33c1ce-cf74-464d-9df6-0a4a4ff0455a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.0239 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "S5"
 		(shape input)
 		(at 157.48 176.53 0)
@@ -6193,9 +6111,9 @@
 			)
 		)
 	)
-	(global_label "P5"
+	(global_label "IO1"
 		(shape input)
-		(at 195.58 69.85 0)
+		(at 195.58 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6203,9 +6121,9 @@
 			)
 			(justify left)
 		)
-		(uuid "5cea5ec3-b574-46fe-b5e6-c04df7b578f8")
+		(uuid "5a74bf36-a47d-4e0a-ad9f-a9c1de5b67f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.0447 69.85 0)
+			(at 201.71 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6237,24 +6155,24 @@
 			)
 		)
 	)
-	(global_label "S1"
+	(global_label "S4"
 		(shape input)
-		(at 195.58 74.93 0)
+		(at 157.48 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "802521d1-c00a-4d90-8f39-0ea15dd8d591")
+		(uuid "75819195-8501-4e85-b42d-64f9aff91d71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.9842 74.93 0)
+			(at 152.0758 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6303,28 +6221,6 @@
 			)
 		)
 	)
-	(global_label "S3"
-		(shape input)
-		(at 157.48 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8bdb2179-0f21-43da-8a5f-afdfb013b7df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.0758 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3v3"
 		(shape input)
 		(at 144.78 127 270)
@@ -6360,6 +6256,28 @@
 		(uuid "8d2be184-9dc3-4b9b-8249-1d6d288f6232")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.8247 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1"
+		(shape input)
+		(at 195.58 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91e99a41-72a2-4375-900f-33a36a31d1fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.0447 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,9 +6353,9 @@
 			)
 		)
 	)
-	(global_label "S4"
+	(global_label "S2"
 		(shape input)
-		(at 157.48 72.39 180)
+		(at 157.48 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6445,9 +6363,9 @@
 			)
 			(justify right)
 		)
-		(uuid "ae62ed29-ddc5-4984-a514-cbbb647ebd12")
+		(uuid "b6b1d571-7334-4828-928d-2b44ca7398a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.0758 72.39 0)
+			(at 152.0758 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6514,6 +6432,50 @@
 		(uuid "d2fe71dc-65b8-439f-98c1-2e660425b11d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 139.7 132.2833 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2"
+		(shape input)
+		(at 195.58 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de5e53c4-eb52-4bbe-b00b-f8791fb9c857")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.0447 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S5"
+		(shape input)
+		(at 157.48 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e017e80f-323d-4e71-afb7-f869fcf850da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.0758 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6629,6 +6591,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Zero_C"
+		(shape input)
+		(at 195.58 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f04e29a7-58db-479f-8658-c33196bb76ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.0361 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6760,73 +6744,6 @@
 			(project "Home_automation"
 				(path "/203d06dc-5c70-448b-a4b1-1afe89fdf141"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 248.92 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "048bb5fa-d3d9-44e7-a088-c94f428a3f5b")
-		(property "Reference" "TP26"
-			(at 246.634 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 240.03 144.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm"
-			(at 254 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 248.92 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4460db1c-6758-4c4a-8da3-652a533c6cbf")
-		)
-		(instances
-			(project "Home_automation"
-				(path "/203d06dc-5c70-448b-a4b1-1afe89fdf141"
-					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -7476,7 +7393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 115.57 171.45 0)
 			(effects
 				(font
@@ -9123,7 +9040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 116.84 153.67 0)
 			(effects
 				(font
@@ -9164,7 +9081,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 257.81 146.05 90)
+		(at 256.54 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9172,7 +9089,7 @@
 		(dnp no)
 		(uuid "3ea412a8-59bd-4a94-bf60-d40e80059a74")
 		(property "Reference" "F1"
-			(at 259.588 147.828 90)
+			(at 258.318 147.828 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9180,7 +9097,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 258.064 143.764 90)
+			(at 256.794 143.764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9188,7 +9105,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
-			(at 257.81 147.828 90)
+			(at 256.54 147.828 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9197,7 +9114,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 146.05 0)
+			(at 256.54 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9206,7 +9123,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 257.81 146.05 0)
+			(at 256.54 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10129,7 +10046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 135.89 171.45 0)
 			(effects
 				(font
@@ -12816,7 +12733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 137.16 153.67 0)
 			(effects
 				(font
@@ -13866,7 +13783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 158.75 160.02 0)
 			(effects
 				(font
@@ -14139,7 +14056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 154.94 171.45 0)
 			(effects
 				(font
